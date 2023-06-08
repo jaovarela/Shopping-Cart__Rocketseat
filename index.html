@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/shopping-cart-fill.ico" type="image/x-icon">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div id="cart">
+        <header>
+            <div class="title">
+                Seu carrinho tem <strong>4 itens</strong>
+            </div>
+            <i class="ph ph-x"></i>
+        </header>
+        <main>
+            <section class="item">
+                <img src="/img/product-image-cadeira.jpg" alt="Imagem de uma cadeira gamer">
+                <div class="details">
+                    <p class="details__description">Cadeira Gamer  RGB - Preta com Iluminação (Led)</p>
+                    <div class="details__price-qty">
+                        <div class="price">R$ 1.200,00</div>
+                        <div class="qty">
+                            <button class="sub">
+                                <i class="ph ph-minus"></i>
+                            </button>
+                            <span>1</span>
+                            <button class="add">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="item">
+                <img src="./img/product-image-headset.jpg" alt="Imagem de um headset gamer">
+                <div class="details">
+                    <p class="details__description">Headset Gamer Hyperx Cloud Stinger Core</p>
+                    <div class="details__price-qty">
+                        <div class="price">R$ 699,00</div>
+                        <div class="qty">
+                            <button class="sub">
+                                <i class="ph ph-minus"></i>
+                            </button>
+                            <span>1</span>
+                            <button class="add">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="item">
+                <img src="./img/product-image-teclado.jpg" alt="Imagem de um teclado gamer">
+                <div class="details">
+                    <p class="details__description">Teclado Gamer Mecânico Low Profile RGB AW510K 580</p>
+                    <div class="details__price-qty">
+                        <div class="price">R$ 899,00</div>
+                        <div class="qty">
+                            <button class="sub">
+                                <i class="ph ph-minus"></i>
+                            </button>
+                            <span>1</span>
+                            <button class="add">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="item">
+                <img src="./img/product-image-monitor.jpg" alt="Imagem de um monitor gamer">
+                <div class="details">
+                    <p class="details__description">Monitor Gamer Curvo 49 DQHD, 240Hz, 1ms, HDMI e DisplayPort, HDR 1000, FreeSync Premium, Ajuste de Altura - LC49G95TSSLXZD</p>
+                    <div class="details__price-qty">
+                        <div class="price">R$ 8.500,00</div>
+                        <div class="qty">
+                            <button class="sub">
+                                <i class="ph ph-minus"></i>
+                            </button>
+                            <span>1</span>
+                            <button class="add">
+                                <i class="ph ph-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="total">
+                <span>Total</span>
+                <strong>R$ 11.298,00</strong>
+            </div>
+            <div class="coupon">
+                <button class="coupon__add">
+                    <i class="ph ph-tag"></i>
+                    <span>Adicionar cupom</span>
+                </button>
+            </div>
+            <button class="buy">Finalizar compra</button>
+        </footer>
+    </div>
+</body>
+</html>
